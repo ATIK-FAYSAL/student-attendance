@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Attendance</string>
+    <string-array name="section_name">
+        <item>SELECT SECTION</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="batch_name">
+        <item>SELECT BATCH</item>
+        <item>8th</item>
+        <item>9th</item>
+        <item>10th</item>
+        <item>11th</item>
+        <item>12th</item>
+        <item>13th</item>
+        <item>14th</item>
+        <item>15th</item>
+        <item>16th</item>
+        <item>17th</item>
+        <item>18th</item>
+        <item>19th</item>
+        <item>20th</item>
+        <item>21th</item>
+        <item>22th</item>
+        <item>23th</item>
+        <item>24th</item>
+        <item>25th</item>
+        <item>26th</item>
+        <item>27th</item>
+        <item>28th</item>
+        <item>29th</item>
+        <item>30th</item>
+        <item>31th</item>
+        <item>32th</item>
+        <item>33th</item>
+        <item>34th</item>
+        <item>35th</item>
+        <item>36th</item>
+        <item>37th</item>
+        <item>38th</item>
+        <item>39th</item>
+        <item>40th</item>
+        <item>41th</item>
+        <item>42th</item>
+        <item>43th</item>
+        <item>44th</item>
+        <item>45th</item>
+        <item>46th</item>
+        <item>47th</item>
+        <item>48th</item>
+        <item>49th</item>
+        <item>50th</item>
+    </string-array>
+    <string-array name="course_code">
+        <item>SELECT COURSE</item>
+        <item>SWE222</item>
+        <item>SWE-112</item>
+        <item>SWE-113</item>
+        <item>SWE-114</item>
+        <item>SWE-121</item>
+        <item>SWE-123</item>
+        <item>SWE-124</item>
+        <item>SWE-131</item>
+        <item>SWE-133</item>
+        <item>SWE-134</item>
+        <item>SWE-211</item>
+        <item>SWE-212</item>
+        <item>SWE-213</item>
+        <item>SWE-214</item>
+        <item>SWE-215</item>
+        <item>SWE-216</item>
+        <item>SWE-221</item>
+        <item>SWE-222</item>
+        <item>SWE-223</item>
+        <item>SWE-224</item>
+        <item>SWE-225</item>
+        <item>SWE-231</item>
+        <item>SWE-232</item>
+        <item>SWE-233</item>
+        <item>SWE-234</item>
+        <item>SWE-235</item>
+        <item>SWE-311</item>
+        <item>SWE-312</item>
+        <item>SWE-313</item>
+        <item>SWE-314</item>
+        <item>SWE-321</item>
+        <item>SWE-322</item>
+        <item>SWE-323</item>
+        <item>SWE-324</item>
+        <item>SWE-332</item>
+        <item>SWE-333</item>
+        <item>SWE-334</item>
+        <item>SWE-411</item>
+        <item>SWE-412</item>
+        <item>SWE-413</item>
+        <item>SWE-421</item>
+        <item>SWE-422</item>
+        <item>SWE-449</item>
+        <item>PHY-114</item>
+        <item>PHY-113</item>
+        <item>ENG-121</item>
+        <item>MAT-111</item>
+        <item>STA-131</item>
+        <item>ACC-301</item>
+        <item>GED-334</item>
+    </string-array>
+    <string-array name="day">
+        <item>DD</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="month">
+        <item>MONTH</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="year">
+        <item>YEAR</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+    </string-array>
+    <string name="title_activity_first_page">first_page</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

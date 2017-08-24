@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/first_button"
+            android:icon="@drawable/ic_call_id"
+            android:title="ID CALL" />
+        <item
+            android:id="@+id/second_button"
+            android:icon="@drawable/ic_take_attendance"
+            android:title="SEE ATTENDANCE" />
+        <item
+            android:id="@+id/third_button"
+            android:icon="@drawable/ic_add_student"
+            android:title="ADD STUDENT" />
+        <item
+            android:id="@+id/fourth_button"
+            android:icon="@drawable/ic_delete_student"
+            android:title="REMOVE STUDENT" />
+        <item
+            android:id = "@+id/fifth_button"
+            android:icon="@drawable/ic_all_student"
+            android:title = "SEE STUDENT"/>
+    </group>
+
+
+</menu>

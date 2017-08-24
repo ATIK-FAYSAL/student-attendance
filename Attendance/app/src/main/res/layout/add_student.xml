@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/images"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"></include>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+
+        android:layout_marginTop="55dp"
+        android:background="@drawable/round_button"
+        android:ems="10"
+        android:hint="  Enter ID "
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/round_button"
+        android:ems="10"
+        android:hint="  Enter name"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000"
+        android:layout_below="@+id/id"
+        android:layout_alignLeft="@+id/id"
+        android:layout_alignStart="@+id/id" />
+
+    <Spinner
+        android:id="@+id/section"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/batch"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:background="@drawable/round_button"
+        android:textColor="#000"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/all_course"
+        android:layout_alignLeft="@+id/all_course"
+        android:layout_alignStart="@+id/all_course" />
+
+    <Spinner
+        android:id="@+id/all_course"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:background="@drawable/round_button"
+        android:layout_below="@+id/section"
+        android:layout_alignLeft="@+id/section"
+        android:layout_alignStart="@+id/section"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

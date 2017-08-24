@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.atik_faysal.attendance">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/student"
+        android:label="SWE"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".first_page"
+            android:label="SWE"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".add_student_code" />
+        <activity android:name=".show_student_code" />
+        <activity android:name=".set_student_list_code" />
+        <activity android:name=".search_student_code" />
+        <activity android:name=".remove_code" />
+        <activity android:name=".remove_student_code" />
+        <activity android:name=".id_call_code"
+            android:label="Id Call"/>
+        <activity android:name=".attendance_code" />
+        <activity android:name=".attendance_page_code" />
+        <activity android:name=".present_code" />
+        <activity android:name=".absent_code" />
+        <activity android:name=".update_code"></activity>
+    </application>
+
+</manifest>

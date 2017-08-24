@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"></include>
+    <Spinner
+        android:id="@+id/day"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="#000"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_toLeftOf="@+id/month"
+        android:layout_toStartOf="@+id/month" />
+
+    <Spinner
+        android:id="@+id/month"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_alignTop="@+id/day"
+        android:textColor="#000"
+        android:background="@drawable/round_button"
+        android:layout_toLeftOf="@+id/year"
+        android:layout_toStartOf="@+id/year" />
+
+    <Spinner
+        android:id="@+id/year"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/month"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000"
+        android:background="@drawable/round_button"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp" />
+
+    <Spinner
+        android:id="@+id/section"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:layout_below="@+id/month"
+        android:background="@drawable/round_button"
+        android:layout_alignLeft="@+id/day"
+        android:layout_alignStart="@+id/day"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/batch"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/course"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/course"
+        android:background="@drawable/round_button"
+        android:layout_alignStart="@+id/course"
+        android:layout_alignRight="@+id/course"
+        android:layout_alignEnd="@+id/course" />
+
+    <Spinner
+        android:id="@+id/course"
+        android:layout_width="300dp"
+        android:textColor="#000"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button"
+        android:layout_below="@+id/section"
+        android:layout_alignLeft="@+id/section"
+        android:layout_alignStart="@+id/section" />
+
+</RelativeLayout>
